@@ -15,6 +15,13 @@ class MainActivity : AppCompatActivity() {
 
         /* TODO Step 1: Populate this array */
         //val numberArray = Array Of Numbers
+        val numberArray = 1..100
+
+        for (number in numberArray) {
+            if (number % 2 == 0) {
+                println(number)
+            }
+        }
 
         /* TODO Step 2: Create adapter to display items from array in Spinner */
         //spinner.adapter = ArrayAdapter...
